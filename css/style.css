@@ -1,0 +1,52 @@
+body {
+  background-color: #191919;
+}
+.navbar-nerdhacks, .navbar-nerdhacks .navbar-header {
+  height: 71px;
+}
+
+.navbar-nerdhacks a {
+  //background-color: #222222;
+}
+
+.nerdhacks-img {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  height: 50px;
+}
+
+.nerdhacks-img img {
+  height: 50px;
+}
+
+.after-navbar {
+  padding-top: 80px;
+}
+
+@media screen and (min-width: 768px) {
+  .navbar-nerdhacks .container-fluid {
+    padding-left: 0px;
+  }
+
+  .navbar-nerdhacks .navbar-nav li a {
+    height: 71px;
+    padding-top: 25px;
+    font-weight: bold;
+  }
+  
+  .navbar-nerdhacks .navbar-nav li a:hover {
+    color: #107C10;
+  }
+
+  .nerdhacks-img {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    height: 90px;
+  }
+
+  .nerdhacks-img img {
+    height: 90px;
+  }
+}
